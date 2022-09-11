@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Title</title>
+</head>
+<body>
+        <div class="banner" style=" background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url({% static 'images/alleppey.jpg' %});">
+            <div class="navbar">
+            <h1><i>CT</i></h1>
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Login</a></li>
+                <li><a>Register</a></li>
+                <li><a>Help</a></li>
+            </ul>
+            </div>
+            <div class="content">
+                <h1>LET'S CODE TOGETHER</h1>
+                <p>YouTube videos have been a useful source of educational content, it is a free web based tool,<br>
+                    and the impact has been important based on our study on students' performance.</p>
+                <div>
+                    <button type="button"><span></span>Watch More</button>
+                    <button type="button"><span></span>Subscribe</button>
+
+                </div>
+            </div>
+        </div>
+</body>
+</html>
